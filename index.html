@@ -6,7 +6,42 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>CSS Selectors</title>
         <!-- <link rel="stylesheet" href="style.css"> -->
+
+        <style>
+            h1, h2{
+                color: green;
+            }
+
+            ul li{
+                color: red;
+            }
+
+            .item{
+                color: purple;
+            }
+
+            #list-item{
+                color: orange;
+            }
+
+
+            input[type="email"]{
+                background-color: yellow;
+            }
+
+        </style>
     </head>
     <body>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+
+        <ul>
+            <li>HTML5</li>
+            <li class="item">Dart</li>
+            <li id="list-item" class="item">Flutter</li>
+        </ul> 
+
+        <input type="text">
+        <input type="email">
     </body>
 </html>
