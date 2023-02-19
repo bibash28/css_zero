@@ -20,4 +20,7 @@
 
 ### Lesson 6 - Text Formatting
 - Inline methods, fonts, google fonts
+
+### Lesson 7 - Box Model
+- content, padding, border, margin
  
