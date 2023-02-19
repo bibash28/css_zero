@@ -8,3 +8,6 @@
 
 ### Lesson 2 - CSS Selectors
 - Select by id > class > type
+
+### Lesson 3 - CSS Combinators
+- Descendant(space), Child(>), Adjacent sibling(+), General Sibling(~)
