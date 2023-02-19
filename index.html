@@ -34,7 +34,7 @@
                 display: block;
             } */
 
-            ul {
+            /* ul {
                 font-size: 40px;
                 list-style: none;
             }
@@ -49,7 +49,25 @@
 
             ul li:nth-child(2){
                 color: orange;
+            } */
+
+            h1::first-letter{
+                font-size: 70px;
+                color: red;
             }
+
+            h1::before{
+                content: "This is";
+                color: green;
+            }
+
+            h1::after{
+                font-size: 70px;
+                content: " of website.";
+                color: orange;
+            }
+
+
         </style> 
     </head>
     <body>  
@@ -64,12 +82,14 @@
             </div>
         </div> -->
 
-        <ul>
+        <!-- <ul>
             <li>Item 1</li>
             <li>Item 2</li>
             <li>Item 3</li>
             <li>Item 4</li>
             <li>Item 5</li>
-        </ul>
+        </ul> -->
+
+        <h1>Heading</h1>
     </body>
 </html>
