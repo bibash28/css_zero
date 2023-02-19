@@ -19,5 +19,5 @@
 - child adopts the property from parent
 
 ### Lesson 6 - Text Formatting
-- Inline methods, fonts
+- Inline methods, fonts, google fonts
  
