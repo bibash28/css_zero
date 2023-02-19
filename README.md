@@ -14,4 +14,7 @@
 
 ### Lesson 4 - CSS Colors
 - rgb(red,green,blue), rgba(red,green,blue, opacity), ##ff0000(#f00)
+
+### Lesson 5 - Inheritance
+- child adopts the property from parent
  
