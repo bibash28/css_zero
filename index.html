@@ -7,7 +7,7 @@
         <title>Pseudo Classes and Elements</title> 
         <!-- <link rel="stylesheet" href="style.css"> --> 
         <style> 
-            a:link{
+            /* a:link{
                 font-size: 35px;
                 text-decoration: none;
                 color: green;
@@ -23,10 +23,28 @@
 
             a:active{
                 color:skyblue;
+            } */
+
+
+            .dropdown-content{
+                display: none;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
             }
         </style> 
     </head>
     <body>  
-        <a href="https://www.google.com">Click here</a>
+        <!-- <a href="https://www.google.com">Click here</a> -->
+
+        <div class="dropdown">
+            <a href="#">Items</a>
+            <div class="dropdown-content">
+                <a href="#">Item 1</a>
+                <a href="#">Item 2</a>
+                <a href="#">Item 3</a> 
+            </div>
+        </div>
     </body>
 </html>
