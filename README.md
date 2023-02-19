@@ -46,4 +46,5 @@
 - images, properties -> repeat, position, attachment, size, origin
 
 #### Lesson 14 - Gradients
+- gradient with container and image
  
