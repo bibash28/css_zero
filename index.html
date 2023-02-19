@@ -6,8 +6,50 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>CSS Selectors</title>
         <!-- <link rel="stylesheet" href="style.css"> --> 
-        </style>
+        <style>
+            #justify { 
+             background-color: #5f8a5f;
+             color: #fff;
+             font-size: 17px;
+             text-align: justify;
+            }  
+            
+            .inline {
+             display: inline;
+             background-color: #5f8a5f;
+             color: #fff;
+             font-size: 17px;
+             text-align: justify;
+            }  
+            
+            .inline-right {
+             display: inline;
+             background-color: #5f8a5f;
+             color: #fff;
+             font-size: 17px;
+             text-align: right;
+            }  
+
+            div {
+                text-align: right;
+                border: 2px solid red;
+            }
+
+
+        </style> 
     </head>
     <body> 
+        <p id="justify">Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+    </br>
+    </br>
+        <p class="inline">Inline => Lorem ipsum dolor sit amet.</p>
+    </br>
+    </br>
+        <p class="inline-right">Trying to move this inline to right with (text-alight: right)</p>
+    </br>
+    </br>
+        <div> 
+            <p class="inline">Trying to move this inline to right with (text-alight: right)</p>
+        </div>
     </body>
 </html>
