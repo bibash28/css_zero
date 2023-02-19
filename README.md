@@ -27,4 +27,8 @@
 ### Lesson 8 - Psuedo Classes and Elements
 - Psuedo Classes defined special state of element. e.g. a:hover
 - Psuedo Elements define style for special part of an element. e.g. h1::after
+
+### Lesson 9 - Measurement Units
+- absolute -> pixel(px), centimeters(cm), millimeter(mm), inch(in), points(pt), pica(pc)
+- relative -> em, rem, vm, vh, %
  
