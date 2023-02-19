@@ -17,4 +17,7 @@
 
 ### Lesson 5 - Inheritance
 - child adopts the property from parent
+
+### Lesson 6 - Text Formatting
+- Inline methods, fonts
  
