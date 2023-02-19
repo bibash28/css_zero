@@ -39,4 +39,6 @@
 
 ### Lesson 11 - Overflow
 - static, relative, absolute, fixed, sticky
+
+### Lesson 12 - Float
  
