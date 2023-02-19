@@ -33,4 +33,7 @@
 - relative -> em, rem, vm, vh, %
 - view port height
 - view point width
+
+### Lesson 10 - Positions
+- static, relative, absolute, fixed, sticky
  
