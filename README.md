@@ -11,3 +11,7 @@
 
 ### Lesson 3 - CSS Combinators
 - Descendant(space), Child(>), Adjacent sibling(+), General Sibling(~)
+
+### Lesson 4 - CSS Colors
+- rgb(red,green,blue), rgba(red,green,blue, opacity), ##ff0000(#f00)
+ 
