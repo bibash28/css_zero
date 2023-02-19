@@ -43,5 +43,5 @@
 ### Lesson 12 - Float
 
 ### Lesson 13 - Blackgrounds
-- images
+- images, properties -> repeat, position, attachment, size, origin
  

@@ -13,11 +13,12 @@
                 border: 100px double red;
                 color: #fff;
                 margin: 50px auto;
+                padding: 20px;
                 background-image: url(img/image.jpg);
                 background-repeat: no-repeat; /*repeat image*/  
-                /* background-size: 150px auto;  /*use auto for avoiding compress*/
-                /* background-size: 50% 50%;  /*use auto for avoiding compress*/   
-                background-size: cover;
+                /* background-origin: content-box; */
+                /* background-origin: padding-box; */
+                background-origin: border-box;
             }
         </style> 
     </head>
