@@ -23,4 +23,7 @@
 
 ### Lesson 7 - Box Model
 - content, padding, border, margin
+
+### Lesson 8 - Psuedo Classes and Elements
+
  
