@@ -31,4 +31,6 @@
 ### Lesson 9 - Measurement Units
 - absolute -> pixel(px), centimeters(cm), millimeter(mm), inch(in), points(pt), pica(pc)
 - relative -> em, rem, vm, vh, %
+- view port height
+- view point width
  
