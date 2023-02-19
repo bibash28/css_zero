@@ -41,4 +41,7 @@
 - static, relative, absolute, fixed, sticky
 
 ### Lesson 12 - Float
+
+### Lesson 13 - Blackgrounds
+- images
  
