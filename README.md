@@ -44,4 +44,6 @@
 
 ### Lesson 13 - Blackgrounds
 - images, properties -> repeat, position, attachment, size, origin
+
+#### Lesson 14 - Gradients
  
