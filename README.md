@@ -49,3 +49,4 @@
 - gradient with container and image
 
 ### Lesson 15 - Shadows
+- text and box shadow
