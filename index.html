@@ -11,10 +11,27 @@
                 width: 200px;
                 height: 200px;
                 background-color: orangered; 
+                position: relative;
+                animation-name: anim;
+                animation-duration: 4s;
             } 
+
+            @keyframes anim {
+                from {
+                    left: 0;
+                    top: 0;
+                    background-color: orangered;
+                } 
+
+                to {
+                    left: 500px;
+                    top: 0;
+                    background-color: green;
+                }
+            }
         </style> 
     </head>
     <body>
-        <div class="box">Box</div>
+        <div class="box"></div>
     </body>
 </html>
