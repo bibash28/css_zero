@@ -52,3 +52,4 @@
 - text and box shadow
 
 ### Lesson 16 - Transition
+- transition property, duration, delay, timing function
