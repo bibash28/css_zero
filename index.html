@@ -14,10 +14,11 @@
                 position: relative;
                 animation-name: anim;
                 animation-duration: 4s;
-                animation-delay: 2s;
+                /* animation-delay: 2s;
                 animation-iteration-count: 1;
                 animation-direction: reverse;
-                animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+                animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+                animation-fill-mode: forwards;
             } 
 
             @keyframes anim {
@@ -49,7 +50,7 @@
 
                 100% {
                     left: 0;
-                    top: 0;
+                    top: 300px;
                     background-color: orangered;
                 }
             }
