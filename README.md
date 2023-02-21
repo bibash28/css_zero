@@ -61,3 +61,21 @@
 
 ### Lesson 19 - Flexbox
 - CSS Flexible Layout module
+
+### Build Project 1 - Grand Hotel
+- Create HTML markup for Sidebar
+- Add CSS to Sidebar
+- Create HTML Markup for Navigation
+- Add CSS to Navigation
+- Create Click Event
+- Create HTML Markup for Header
+- Add CSS to Header
+- Create HTML Markup for About Us Section
+- Add CSS to About Us Section
+- Create HTML Markup for Rooms Section
+- Add CSS to Rooms Section
+- Create HTML Markup for Customers Section
+- Add CSS to Customers Section
+- Create HTML Markup for Footer
+- Add CSS to Footer
+- Make the Project Responsive
