@@ -63,6 +63,7 @@
 - CSS Flexible Layout module
 
 ### Build Project 1 - Grand Hotel
+- Basic Setup - add image, fonts
 - Create HTML markup for Sidebar
 - Add CSS to Sidebar
 - Create HTML Markup for Navigation
