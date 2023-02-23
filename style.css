@@ -206,7 +206,8 @@ body {
 }
 
 .checkbox:checked~.sidebar .line-2 {
-    opacity: 0;;
+    opacity: 0;
+    ;
 }
 
 .checkbox:checked~.sidebar .line-3 {
@@ -219,19 +220,19 @@ body {
 /* end of navbar */
 
 /* header */
-.header{
+.header {
     margin-left: 8rem;
     height: 100vh;
-    background:linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(./img/header-2.jpg) center no-repeat;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(./img/header-2.jpg) center no-repeat;
     background-size: cover;
 }
 
-.brand{
+.brand {
     display: flex;
     cursor: pointer;
 }
 
-.hotel-heading{
+.hotel-heading {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2.7rem;
     font-weight: 400;
@@ -239,30 +240,30 @@ body {
     letter-spacing: .2rem;
 }
 
-.banner{
+.banner {
     color: #ddd;
-    height: 65rem; 
+    height: 65rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.banner-heading{
-    font-family: 'Josefin Sans', sans-serif; 
+.banner-heading {
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 7rem;
     font-weight: 400;
     margin-bottom: 0;
     animation: anim 2s;
 }
 
-.banner-paragraph{ 
+.banner-paragraph {
     font-size: 3.5rem;
-    font-weight: 300; 
+    font-weight: 300;
     animation: anim 1.5s .5s backwards;
 }
 
-.banner-button{
+.banner-button {
     width: 21rem;
     padding: 1.2rem 2rem;
     font-size: 2rem;
@@ -275,11 +276,11 @@ body {
     animation: anim 1s 1s backwards;
 }
 
-.banner-button:hover{ 
+.banner-button:hover {
     background: linear-gradient(to left, gold, goldenrod);
 }
 
-.banner-button:active{ 
+.banner-button:active {
     transform: translateY(.1rem);
 }
 
@@ -288,20 +289,21 @@ body {
         opacity: 0;
     }
 
-    100%{
+    100% {
         opacity: 1;
     }
 }
+
 /* end of header */
 
 /* about-us */
-.about-us{
+.about-us {
     margin-left: 8rem;
     display: flex;
     background-color: #ddd;
 }
 
-.about-us-content{
+.about-us-content {
     flex: 0 1 50%;
     display: flex;
     flex-direction: column;
@@ -311,22 +313,22 @@ body {
     box-sizing: border-box;
 }
 
-.about-us-heading{
-    font-family: 'Josefin Sans', sans-serif; 
+.about-us-heading {
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 4rem;
-    font-weight: 300; 
+    font-weight: 300;
     text-transform: uppercase;
     color: #555;
 }
 
-.sub-heading{
+.sub-heading {
     font-size: 3.5rem;
     font-weight: 300;
     letter-spacing: .2rem;
     color: #b85d1c;
 }
 
-.about-us-paragraph{
+.about-us-paragraph {
     font-size: 1.6rem;
     font-size: italic;
     font-weight: 300;
@@ -334,7 +336,7 @@ body {
     margin-bottom: 5rem;
 }
 
-.about-us-btn{
+.about-us-btn {
     width: 15rem;
     padding: .7rem .5rem;
     font-family: 'Montserrat', sans-serif;
@@ -346,21 +348,21 @@ body {
     cursor: pointer;
 }
 
-.btn-arrow{
+.btn-arrow {
     margin-left: .5rem;
     transition: margin-left .4s;
 }
 
-.about-us-btn:hover .btn-arrow{ 
+.about-us-btn:hover .btn-arrow {
     margin-left: 1.5rem;
 }
 
-.about-us-images{
+.about-us-images {
     flex: 1 1;
     position: relative;
 }
 
-.image{
+.image {
     width: 32rem;
     position: absolute;
     top: 50%;
@@ -370,98 +372,100 @@ body {
     border: .2rem solid #b85d1c;
 }
 
-.image-1{
+.image-1 {
     transform: translate(-20%, -90%);
 }
 
-.image-2{
+.image-2 {
     transform: translate(-70%, -70%);
 }
 
-.image-3{
+.image-3 {
     transform: translate(-50%, -50%);
 }
 
-.image-4{
+.image-4 {
     transform: translate(-30%, -30%);
 }
+
 /* end of about-us */
 
 /* common-header */
-.common-header{
+.common-header {
     padding: 5rem;
     text-align: center;
     color: #b85d1c;
 }
 
-.common-heading{
+.common-heading {
     font-size: 4rem;
     font-weight: 300;
     letter-spacing: .2rem;
 }
 
-.small-underline{
+.small-underline {
     width: 9rem;
     height: .1rem;
-    background-color: #b85d1c; 
-    margin: 0 auto 1rem auto; 
+    background-color: #b85d1c;
+    margin: 0 auto 1rem auto;
 }
 
-.big-underline{
+.big-underline {
     width: 20rem;
     height: .1rem;
     background-color: #b85d1c;
-    margin: auto; 
+    margin: auto;
 }
+
 /* end of common-header */
 
 /* rooms */
-.rooms{
+.rooms {
     margin-left: 8rem;
 }
 
 
-.rooms-cards-wrapper{
+.rooms-cards-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.room-card{
+.room-card {
     width: 60rem;
     margin: 5rem;
     background-color: #15141b;
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, .3);
 }
 
-.room-img{
+.room-img {
     width: 100%;
 }
 
-.room-card-content{
+.room-card-content {
     color: #ddd;
     padding: 2rem;
 }
 
-.room-card-head{
+.room-card-head {
     margin: 0;
     font-size: 3rem;
     font-weight: 300;
 }
 
-.room-card-paragraph{
+.room-card-paragraph {
     font-size: 1.5rem;
     color: #777;
 }
 
-.room-price{
+.room-price {
     font-size: 5rem;
     font-weight: 300;
     text-align: right;
     margin: 0;
 }
 
-.room-card-btn{ 
+.room-card-btn {
     width: 15rem;
     padding: 1.5rem 1rem;
     font-family: 'Montserrat', sans-serif;
@@ -474,16 +478,16 @@ body {
     cursor: pointer;
 }
 
-.room-card-btn:hover{  
+.room-card-btn:hover {
     background-color: #b85d1c;
-    color: #ddd;   
+    color: #ddd;
 }
 
-.rooms-btn-wrapper{
+.rooms-btn-wrapper {
     text-align: center;
 }
 
-.rooms-btn{
+.rooms-btn {
     width: 20rem;
     padding: 1.5rem 1rem;
     margin: 4rem 0;
@@ -496,9 +500,72 @@ body {
     transition: all .2s;
 }
 
-.rooms-btn:hover{ 
-    background-color: #b85d1c; 
-    color: #ddd; 
+.rooms-btn:hover {
+    background-color: #b85d1c;
+    color: #ddd;
 }
 
 /* end of rooms */
+
+
+/* customers */
+.customers {
+    margin-left: 8rem;
+    padding-bottom: 7rem;
+    background-color: #15141b;
+}
+
+.customers-paragraph {
+    font-size: 1.8rem;
+    color: #ddd;
+    width: 50%;
+    margin: 2rem auto 8rem auto;
+    text-align: center;
+}
+
+.customers-card-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.customer-card {
+    background-color: #ddd;
+    width: 60rem;
+    display: flex;
+}
+
+.customer-image-wrapper {
+    margin: auto 0;
+}
+
+
+.customer-image {
+    width: 20rem;
+    margin-left: -1.3rem;
+    margin-right: 1rem;
+}
+
+
+.customer-info {
+    padding: 0.2rem
+}
+
+.customer-fullname {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.customer-paragraph-1 {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #b85d1c;
+}
+
+.customer-paragraph-2 {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 300;
+}
+
+/* end of customers */
