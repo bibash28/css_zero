@@ -1,403 +1,59 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="shortcut icon" href="img/crown.png">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-            rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <title>Yalax Hotel</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Grid</title>
+        <style>
+            .container {
+                width: 800px;
+                background-color: #ddd;
+                margin: 40px auto;
+                display: grid;
+                grid-template-rows: 150px 150px;
+                grid-template-columns: 150px 150px 150px;
+                gap: 30px 50px;
+            }
+
+            .item {
+                padding: 30px;
+                font-size: 30px;
+                color: #fff;
+            }
+
+            .item-1{
+                background-color: orangered;
+            }
+
+            .item-2{
+                background-color: olivedrab;
+            }
+
+            .item-3{
+                background-color: royalblue;
+            }
+
+            .item-4{
+                background-color: palevioletred;
+            }
+
+            .item-5{
+                background-color: goldenrod;
+            }
+
+            .item-6{
+                background-color: blueviolet;
+            }
+        </style>
     </head>
     <body>
-        <!-- navbar -->
-
-        <div class="navbar">
-
-            <input type="checkbox" class="checkbox" id="click" hidden>
-            <!-- sidebar -->
-            <div class="sidebar">
-                <label for="click">
-                    <div class="menu-icon">
-                        <div class="line line-1"></div>
-                        <div class="line line-2"></div>
-                        <div class="line line-3"></div>
-                    </div>
-                </label>
-
-                <ul class="social-icons-list">
-                    <li>
-                        <a href="#" class="social-link"><i class="fab
-                                fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#" class="social-link"><i class="fab
-                                fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#" class="social-link"><i class="fab
-                                fa-google-plus-g"></i></a>
-                    </li>
-                    <li>
-                        <a href="#" class="social-link"><i class="fab
-                                fa-instagram"></i></a>
-                    </li>
-                </ul>
-
-                <div class="year">
-                    <p>2023</p>
-                </div>
-            </div>
-            <!-- end of sidebar -->
-
-            <!-- navigaton -->
-            <div class="navigation">
-                <div class="navigation-header">
-                    <h1 class="navigation-heading">Yalax Hotel</h1>
-
-                    <form class="navigation-search">
-                        <input type="text" class="navigation-search-input"
-                            placeholder="Search...">
-                        <button class="navigation-search-btn">
-                            <i class="fa fa-search"></i>
-                        </button>
-                    </form>
-                </div>
-
-                <ul class="navigation-list">
-                    <li class="navigation-item">
-                        <a href="#" class="navigation-link">Home</a>
-                    </li>
-                    <li class="navigation-item">
-                        <a href="#" class="navigation-link">About Us</a>
-                    </li>
-                    <li class="navigation-item">
-                        <a href="#" class="navigation-link">Rooms</a>
-                    </li>
-                    <li class="navigation-item">
-                        <a href="#" class="navigation-link">Events</a>
-                    </li>
-                    <li class="navigation-item">
-                        <a href="#" class="navigation-link">Customers</a>
-                    </li>
-                    <li class="navigation-item">
-                        <a href="#" class="navigation-link">Contact</a>
-                    </li>
-                </ul>
-
-                <div class="copyright">
-                    <p>&copy; 2023 Yalax Hotel. All Rights Reserved</p>
-                </div>
-            </div>
-            <!-- emd of navigation -->
+        <div class="container">
+            <div class="item item-1">item 1</div>
+            <div class="item item-2">item 2</div>
+            <div class="item item-3">item 3</div>
+            <div class="item item-4">item 4</div>
+            <div class="item item-5">item 5</div>
+            <div class="item item-6">item 6</div>
         </div>
-        <!-- end of navbar -->
-
-
-        <!-- header -->
-        <header class="header">
-            <div class="brand">
-                <div>
-                    <img src="img/crown.png" width=80>
-                </div>
-                <h3 class="hotel-heading">Yalax Hotel</h3>
-            </div>
-            <div class="banner">
-                <h1 class="banner-heading">Welcome to Yalax Hotel</h1>
-                <p class="banner-paragraph">Experience the best moment of your
-                    life.</p>
-                <button class="banner-button">Check Out</button>
-            </div>
-        </header>
-        <!-- end of header -->
-
-        <!-- about us -->
-        <section class="about-us">
-            <div class="about-us-content">
-                <h1 class="about-us-heading">About Us</h1>
-                <div class="underline">
-                    <div class="small-underline"></div>
-                    <div class="big-underline"></div>
-                </div>
-                <h3 class="sub-heading">Yalax Hotel</h3>
-                <p class="about-us-paragraph">
-                    Yalax Hotel is a newly launched hotel in Nepal located in
-                    the heart of Kathmandu. It offers modern and comfortable
-                    accommodation with 48 stylishly decorated rooms equipped
-                    with all necessary amenities such as air conditioning,
-                    flat-screen TVs, private bathrooms, and free Wi-Fi.The hotel
-                    boasts of its rooftop restaurant, which offers a stunning
-                    view of the surrounding hills and the city skyline. Guests
-                    can enjoy delicious local and international cuisine while
-                    enjoying the panoramic view.
-                </p>
-                <button class="about-us-btn">
-                    Read mode
-                    <i class="fas fa-angle-double-right btn-arrow"></i>
-                </button>
-            </div>
-            <div class="about-us-images">
-                <img src="img/about-us-img-1.jpeg" class="image image-1">
-                <img src="img/about-us-img-2.jpeg" class="image image-2">
-                <img src="img/about-us-img-3.jpeg" class="image image-3">
-                <img src="img/about-us-img-4.jpeg" class="image image-4">
-            </div>
-        </section>
-        <!-- end of about us -->
-
-        <!-- rooms -->
-        <section class="rooms">
-            <div class="common-header">
-                <h1 class="common-heading">Rooms in Yalax Hotel</h1>
-                <div class="underline">
-                    <div class="small-underline"></div>
-                    <div class="big-underline"></div>
-                </div>
-            </div>
-
-            <div class="rooms-cards-wrapper">
-                <div class="room-card">
-                    <img src="img/single-room.jpeg" class="room-img">
-                    <div class="room-card-content">
-                        <h4 class="room-card-head">Single Room</h4>
-                        <p class="room-card-paragraph">Lorem ipsum dolor sit
-                            down.</p>
-                        <p class="room-price">Rs.1500</p>
-                        <button class="room-card-btn">
-                            Book Now
-                            <i class="fas fa-angle-double-right btn-arrow"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="room-card">
-                    <img src="img/double-room.jpeg" class="room-img">
-                    <div class="room-card-content">
-                        <h4 class="room-card-head">Double Room</h4>
-                        <p class="room-card-paragraph">Lorem ipsum dolor sit
-                            down.</p>
-                        <p class="room-price">Rs.2000</p>
-                        <button class="room-card-btn">
-                            Book Now
-                            <i class="fas fa-angle-double-right btn-arrow"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="room-card">
-                    <img src="img/lux.jpeg" class="room-img">
-                    <div class="room-card-content">
-                        <h4 class="room-card-head">Luxury Room</h4>
-                        <p class="room-card-paragraph">Lorem ipsum dolor sit
-                            down.</p>
-                        <p class="room-price">Rs.2500</p>
-                        <button class="room-card-btn">
-                            Book Now
-                            <i class="fas fa-angle-double-right btn-arrow"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="room-card">
-                    <img src="img/vip.jpeg" class="room-img">
-                    <div class="room-card-content">
-                        <h4 class="room-card-head">VIP Room</h4>
-                        <p class="room-card-paragraph">Lorem ipsum dolor sit
-                            down..</p>
-                        <p class="room-price">Rs.4000</p>
-                        <button class="room-card-btn">
-                            Book Now
-                            <i class="fas fa-angle-double-right btn-arrow"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="rooms-btn-wrapper">
-                <button class="rooms-btn">Check All Rooms</button>
-            </div>
-        </section>
-        <!-- end of rooms -->
-
-        <!-- customers -->
-        <section class="customers">
-            <div class="common-header">
-                <h1 class="common-heading">Our Customers</h1>
-                <div class="underline">
-                    <div class="small-underline"></div>
-                    <div class="big-underline"></div>
-                </div>
-            </div>
-
-            <p class="customers-paragraph">Lorem Ipsum is simply dummy text of
-                the
-                printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an
-                unknown
-                printer took a galley of type and scrambled it to make a type
-                specimen book.</p>
-
-            <div class="customers-card-wrapper">
-                <div class="customer-card">
-                    <div class="customer-image-wrapper">
-                        <img src="img/customer-1.jpeg" class="customer-image">
-                    </div>
-                    <div class="customer-info">
-                        <h3 class="customer-fullname">Sneha Maskey</h3>
-                        <h3 class="customer-paragraph-1">Happy Customer</h3>
-                        <h3 class="customer-paragraph-2">"Lorem Ipsum is simply
-                            dummy
-                            text of the printing and typesetting industry. Lorem
-                            Ipsum has been the industry's standard dummy text
-                            ever
-                            since the 1500s, when an unknown printer took a
-                            galley
-                            of type and scrambled it to make a type specimen
-                            book.
-                            It has survived not only five centuries, but also
-                            the
-                            leap into electronic typesetting, remaining
-                            essentially
-                            unchanged."</h3>
-                    </div>
-                </div>
-                <div class="customer-card">
-                    <div class="customer-image-wrapper">
-                        <img src="img/customer-2.jpeg" class="customer-image">
-                    </div>
-                    <div class="customer-info">
-                        <h3 class="customer-fullname">Buddhi Tamang</h3>
-                        <h3 class="customer-paragraph-1">Happy Customer</h3>
-                        <h3 class="customer-paragraph-2">"Lorem Ipsum is simply
-                            dummy
-                            text of the printing and typesetting industry. Lorem
-                            Ipsum has been the industry's standard dummy text
-                            ever
-                            since the 1500s, when an unknown printer took a
-                            galley
-                            of type and scrambled it to make a type specimen
-                            book.
-                            It has survived not only five centuries, but also
-                            the
-                            leap into electronic typesetting, remaining
-                            essentially
-                            unchanged."</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end of customer -->
-
-        <!-- footer -->
-        <footer class="footer">
-            <div class="main-part">
-                <div class="footer-list-wrapper">
-                    <h3 class="footer-heading">Yalax Hotel</h3>
-                    <ul class="footer-list">
-                        <li class="footer-list-item">
-                            <a href="#" class="footer-list-link">
-                                support@yalaxhotel.com
-                            </a>
-                        </li>
-                        <li class="footer-list-item">
-                            <a href="#" class="footer-list-link">
-                                NewRoad, Kathmandu, Nepal
-                            </a>
-                        </li>
-                        <li class="footer-list-item">
-                            <a href="#" class="footer-list-link">
-                                Tel: +977-9863475142
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-list-wrapper">
-                    <h3 class="footer-heading">Explore</h3>
-                    <ul class="footer-list">
-                        <li class="footer-list-item">
-                            <a href="#" class="footer-list-link">
-                                Home
-                            </a>
-                        </li>
-                        <li class="footer-list-item">
-                            <a href="#" class="footer-list-link">
-                                About Us
-                            </a>
-                        </li>
-                        <li class="footer-list-item">
-                            <a href="#" class="footer-list-link">
-                                Rooms
-                            </a>
-                        </li>
-                        <li class="footer-list-item">
-                            <a href="#" class="footer-list-link">
-                                Events
-                            </a>
-                        </li>
-                        <li class="footer-list-item">
-                            <a href="#" class="footer-list-link">
-                                Customers
-                            </a>
-                        </li>
-                        <li class="footer-list-item">
-                            <a href="#" class="footer-list-link">
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="contact">
-                    <h3 class="footer-heading">Contact</h3>
-                    <p>Sign Up for News</p>
-                    <form class="footer-form">
-                        <input type="text" class="footer-input" placeholder="Your email...">
-                        <button class="footer-btn">Sign Up</button>
-                    </form>
-                </div>
-                <div class="gallery"> 
-                    <h3 class="footer-heading">Gallery</h3>
-                    <div class="gallery-images">
-                        <div class="image-wrapper">
-                            <img src="img/gallery-img-1.jpeg" class="footer-image">
-                        </div>
-                        <div class="image-wrapper">
-                            <img src="img/gallery-img-2.jpeg" class="footer-image">
-                        </div>
-                        <div class="image-wrapper">
-                            <img src="img/gallery-img-3.jpeg" class="footer-image">
-                        </div>
-                        <div class="image-wrapper">
-                            <img src="img/gallery-img-4.jpeg" class="footer-image">
-                        </div>
-                        <div class="image-wrapper">
-                            <img src="img/gallery-img-5.jpeg" class="footer-image">
-                        </div>
-                        <div class="image-wrapper">
-                            <img src="img/gallery-img-6.jpeg" class="footer-image">
-                        </div>     
-                    </div>
-                </div>
-            </div>
-
-            <div class="creator-part">
-                <div class="copyright-text">
-                    <p>Copyright &copy 2023. Yalax Hotel. All Rights Reserved.</p>
-                </div>
-                <div class="text-right">
-                    <p>Made With <i class="fas fa-heart"></i> by <span>Bibash Shrestha.</span></p>
-                </div>
-                
-            </div>
-        </footer>
-        <!-- end of footer -->
-
     </body>
 </html>
