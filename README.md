@@ -124,4 +124,4 @@
 ### Lesson 27 - Other Properties
 
 - max-content, min-content, minmax()
-- auto-fill, auto-fit
+- auto-fill, auto-fit(wraps also)
