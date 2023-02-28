@@ -7,12 +7,12 @@
         <style>
             .container {
                 width: 800px;
-                height: 450px;
+                /* height: 450px; */
                 background-color: #ddd;
                 margin: 40px auto;
                 display: grid;
-                grid-template-rows: repeat(2, fr);
-                grid-template-columns: 50% repeat(2, 1fr);
+                grid-template-rows: 1 fr 1fr;
+                grid-template-columns: repeat(3, 1fr);
                 gap: 30px 50px;
             }
 
@@ -24,14 +24,24 @@
 
             .item-1{
                 background-color: orangered;
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 2;
+                grid-row-end: 3;
             }
 
             .item-2{
                 background-color: olivedrab;
+                /* grid-column: 2 / 3;
+                grid-row: 2 / 3; */
+                grid-area: 2 / 2 / 3 / 3;
+                /* z-index: 1; */
             }
 
             .item-3{
                 background-color: royalblue;
+                /* grid-column: 1 / -1;
+                grid-row: 1 / -1; */
             }
 
             .item-4{
@@ -44,6 +54,7 @@
 
             .item-6{
                 background-color: blueviolet;
+                grid-column: 1 / span 2;
             }
         </style>
     </head>
