@@ -118,3 +118,5 @@
 ### Lesson 25 - Align Grid Items
 
 - align individual items
+
+### Lesson 26 - Align Grid Tracks
