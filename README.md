@@ -99,3 +99,5 @@
 - Make the Project Responsive
 
 ### Lesson 21 - CSS Grid
+
+- positining and spanning grid items
