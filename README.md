@@ -106,3 +106,7 @@
 
 - positioning by lines
 - positioning by names
+
+### Lesson 23 - Naming Grid Areas
+
+- positioning by area
