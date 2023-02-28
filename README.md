@@ -110,3 +110,7 @@
 ### Lesson 23 - Naming Grid Areas
 
 - positioning by area
+
+### Lesson 24 - Implicit and Explicit Grid
+
+- avoid in real world projects
