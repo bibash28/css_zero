@@ -101,3 +101,8 @@
 ### Lesson 21 - CSS Grid
 
 - positining and spanning grid items
+
+### Lesson 22 - Naming Grid Items
+
+- positioning by lines
+- positioning by names
