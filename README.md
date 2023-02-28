@@ -120,3 +120,7 @@
 - align individual items
 
 ### Lesson 26 - Align Grid Tracks
+
+### Lesson 27 - Other Properties
+
+- max-content, mincontent, minmax()
