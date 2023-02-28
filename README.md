@@ -116,3 +116,5 @@
 - avoid in real world projects
 
 ### Lesson 25 - Align Grid Items
+
+- align individual items
