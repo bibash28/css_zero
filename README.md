@@ -114,3 +114,5 @@
 ### Lesson 24 - Implicit and Explicit Grid
 
 - avoid in real world projects
+
+### Lesson 25 - Align Grid Items
