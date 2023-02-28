@@ -123,4 +123,4 @@
 
 ### Lesson 27 - Other Properties
 
-- max-content, mincontent, minmax()
+- max-content, min-content, minmax()
